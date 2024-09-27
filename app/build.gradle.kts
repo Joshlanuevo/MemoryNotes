@@ -49,7 +49,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
 
     implementation(libs.androidx.recyclerview.v131)
-    implementation("androidx.navigation:navigation-fragment-ktx:${rootProject.extra["nav_version"]}")
+    implementation(libs.androidx.navigation.fragment.ktx)
     implementation("androidx.navigation:navigation-ui-ktx:${rootProject.extra["nav_version"]}")
     implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:${rootProject.extra["coroutines_version"]}")
